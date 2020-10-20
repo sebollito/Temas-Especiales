@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PrimerParcial</string>
+    <string name="tab_text_1">Android</string>
+    <string name="tab_text_2">Java</string>
+    <string name="tab_text_3">ListView</string>
+    <string name="tab_text_4">Fragment</string>
+    <string name="Android">
+        Android es un sistema operativo móvil basado en núcleo Linux y otros software de código abierto. Fue diseñado para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes (Wear OS), automóviles (Android Auto) y televisores (Android TV).
+    </string>
+
+    <string name="Fragmento">
+        Un Fragment representa un comportamiento o una parte de la interfaz de usuario en una FragmentActivity. Puedes combinar varios fragmentos en una sola actividad para crear una IU multipanel y volver a usar un fragmento en diferentes actividades.
+    </string>
+
+    <string name="ListView">
+      Un ListView control permite mostrar una lista de elementos con texto de elemento y, opcionalmente, un icono para identificar el tipo de elemento. ... Por ejemplo, la lista de archivos del explorador de Windows tiene una apariencia similar a la de un ListView control.
+    </string>
+
+    <string name="Java">
+        Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán, probablemente, a menos que tengan Java instalado y cada día se crean más.
+    </string>
+    <string-array name="array_Concepts">
+        <item>Android</item>
+        <item>Fragmento</item>
+        <item>List View</item>
+        <item>Java</item>
+    </string-array>
+</resources>
