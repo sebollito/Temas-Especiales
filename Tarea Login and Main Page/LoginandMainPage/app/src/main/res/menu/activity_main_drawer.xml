@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/drawer_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/categoryListActivity"
+            android:title="Category"
+            android:icon="@drawable/ic_baseline_border_all_24"/>
+        <item
+            android:id="@+id/productListActivity"
+            android:title="Product"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_order"-->
+<!--            android:title="Order"-->
+<!--            android:icon="@drawable/ic_baseline_note_add_24"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_order_tracking"-->
+<!--            android:title="Order Tracking"-->
+<!--            android:icon="@drawable/ic_baseline_gps_fixed_24"/>-->
+    </group>
+
+<!--    <group-->
+<!--        android:id="@+id/drawer_mid"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/listOS2"-->
+<!--            android:title="List OS"-->
+<!--            android:icon="@drawable/ic_baseline_dehaze_24"/>-->
+<!--    </group>-->
+    <group
+        android:id="@+id/drawer_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/ic_baseline_help_24"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_person_24"/>
+        <item
+            android:id="@+id/homeActivity"
+            android:title="Log Out"
+            android:icon="@drawable/ic_outline_input_24"/>
+    </group>
+</menu>
